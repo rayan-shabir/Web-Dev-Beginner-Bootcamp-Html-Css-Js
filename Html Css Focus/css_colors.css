@@ -1,0 +1,18 @@
+/*Color by name */
+#paraOne{
+    background-color: yellow;
+    color: red;
+}
+
+/*Color by rgb */
+#paraTwo{
+    background-color: rgb(255, 0, 0);
+    color: rgb(10, 210, 110);
+}
+
+/*Color by hex */
+#paraThree{
+    background-color: #000000;
+    color: #fff370
+}
+

@@ -1,0 +1,10 @@
+p{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size : 18px;       /*px is the unit for font size */
+    line-height : 30em;     /*em is the unit for line height */
+}
+
+span{
+    font-weight : bold;
+    font-style : italic;
+}

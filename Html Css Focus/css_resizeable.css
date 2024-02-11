@@ -1,0 +1,15 @@
+p{
+    border: 2px solid red;
+    width: 400px;
+    height: 300px;
+    overflow: auto;
+
+    resize: both; /* This will resize along both y and x axis */
+    resize: horizontal; /* This will resize along only x axis */
+    resize: vertical; /* This will resize along only y axis */
+}
+
+textarea{
+    border: 2px solid red;
+    resize: none;
+}

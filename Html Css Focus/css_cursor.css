@@ -1,0 +1,15 @@
+p{
+    border: 2px solid red;
+    /* cursor: auto; */
+    /* cursor: all-scroll; */
+    /* cursor: cell; */
+    /* cursor: col-resize; */
+    /* cursor: crosshair; */
+    /* cursor: e-resize; */
+    /* cursor: grab; */
+    /* cursor: help; */
+    /* cursor: progress; */
+    /* cursor: wait; */
+    /* cursor: zoom-in; */
+    cursor: pointer;
+}

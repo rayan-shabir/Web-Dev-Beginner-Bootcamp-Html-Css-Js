@@ -1,0 +1,17 @@
+div{
+    border: 2px solid red;
+    width: 400px;
+    height: 300px;
+
+    /* overflow: visible; */ /*This is default behaviour */
+    /* overflow: hidden; */ /*This will hide the content which go beyond limit of div */
+    /* overflow: scroll; */ /*This scroll is both along x as well as y axis */
+
+    /*By this we get scroll only along y axis */
+    /* overflow-x: none;
+    overflow-y: scroll; */
+
+    /*If we don't know from where our text will required scroll
+    then, we use: */
+    overflow: auto;
+}

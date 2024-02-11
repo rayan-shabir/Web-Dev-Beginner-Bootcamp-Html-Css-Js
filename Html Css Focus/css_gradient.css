@@ -1,0 +1,14 @@
+#div1{
+    border: 2px solid red;
+    height: 230px;
+
+    background-image: linear-gradient(to right, blue, red, green);
+}
+
+#div2{
+    border: 2px solid green;
+    height: 230px;
+    margin-top: 20px;
+
+    background-image: radial-gradient(circle, blue, yellow, red);
+}

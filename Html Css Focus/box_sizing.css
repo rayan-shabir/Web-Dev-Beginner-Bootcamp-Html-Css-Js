@@ -1,0 +1,23 @@
+/* This is universal Selector */
+*{
+    /* This is used when we use change width by ourself and want that width to apply correctly */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* This Selector is for the backgournd (ORIGINAL BODY) of out website */
+body{
+    background-color:#b990bf;
+}
+
+.container{
+    background-color: #ead0ee;
+    border: 4px solid #730885;
+
+    padding: 30px 40px;
+    margin: 50px 50px;
+
+    border-radius: 20px;
+    width: 400px;
+}

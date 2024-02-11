@@ -1,0 +1,19 @@
+
+p{
+    border: 3px solid green;
+    background-color: yellowgreen;
+    width: 200px;
+    margin: 170px;
+    padding: 50px;
+
+    /* Parameters of box-shadow:border:
+       1. along x-axis;
+       2. along y-axis;
+       3. blur radius;
+       4. spread radius;
+       5. shadow color; 
+       6. inset is used for inside shadow;*/
+    /*box-shadow: 10px 8px 15px 3px grey inset; */
+    
+    box-shadow: 10px 8px 15px 3px grey;
+}

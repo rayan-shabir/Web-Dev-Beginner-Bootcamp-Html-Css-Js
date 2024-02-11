@@ -1,0 +1,21 @@
+/* Declaring variables */
+:root{
+    --primary-color: red;
+    --btn-color: blue;
+    --text-color: white;
+}
+
+div{
+    background-color: var(--primary-color);
+    height: 200px;
+    /* Using function calc()*/
+    width: calc(100% - 200px); 
+}
+
+a{
+    padding: 20px 30px;
+    margin: 20px;
+    background-color: var(--btn-color);
+    color: var(--text-color);
+    text-decoration: none;
+}
