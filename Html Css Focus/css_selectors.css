@@ -1,0 +1,27 @@
+/* Element Selector */
+p{
+    border : 2px solid red;
+}
+
+/* id Selector 
+   for id we use '#'*/
+#paraOne{
+    color : green;
+}
+/* group selector in id selector form */
+#paraTwo, #paraThree{
+    color : yellowgreen;
+}
+#paraFour{
+    background-color: aquamarine;
+}
+
+/* class Selector
+   for class we use '.' */
+.greenElement{
+    background-color: red;
+}
+/* group selector in class selector form*/
+.redElement, .bgBlue{
+    background-color : blueviolet;
+}

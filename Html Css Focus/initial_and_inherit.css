@@ -1,0 +1,19 @@
+#green{
+    color: green;
+}
+
+#red{
+    color: red;
+}
+
+#initial{
+    /* initial means default color
+    Here default color will set */
+    color:initial;
+}
+
+#inherit{
+    /* inherit means parent's color
+    Here parent's color will set */
+    color:inherit;
+}

@@ -1,0 +1,28 @@
+@font-face{
+    /*
+    If we set name to more than one word than we have to place it inside quotation marks */
+    /*
+    font-family: "Rayan shabir"; */
+    font-family: abc;
+    src: url('fonts/GreatVibes-Regular.ttf');
+}
+
+h1{
+    /*
+    If we set name to more than one word than we have to place it inside quotation marks */
+    /*
+    font-family: "Rayan shabir"; */
+    font-family: abc;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+p{
+    /*
+    If we set name to more than one word than we have to place it inside quotation marks */
+    /*
+    font-family: "Rayan shabir"; */
+    font-family: abc;
+    font-size: 30px;
+}

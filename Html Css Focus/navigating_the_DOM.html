@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigating the DOM  (Document Object Model)</title>
+
+    <!-- <script src="navigating_the_DOM.js"></script> -->
+</head>
+<body>
+    <div id="main" class="container">
+        <ul id="nav">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Gallery</li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+    <div class="container">
+        This is another Container
+    </div>
+
+    <script>
+        // Getting Element by id's
+        let main = document.getElementById('main');
+        console.log(main);
+
+        let nav = document.getElementById('nav');
+        console.log(nav);
+
+        
+        // To get HTML of some specific id
+        nav.innerHTML;
+        // nav.innerHTML = "<li>Dynamic element</li>";
+
+        // Getting Element by class
+        let container = document.getElementsByClassName('conteiner');
+        console.log(container);
+
+        container.innerHTML;
+        // container.innerHTML = "<li>Dynamic element</li>";
+
+        // Accessing /Getting elements by Css Selectors
+        // By class name
+        // It will return first match
+        let sel = document.querySelector('.container');
+        console.log("Selector 0 returns ", sel);
+
+        // It will return all matches of ''.container'
+        let sel1 = document.querySelectorAll('.container');
+        console.log("Selector 1 returns ", sel1);
+
+
+        // By id
+        // It will return first match
+        let sel2 = document.querySelector('#nav');
+        console.log("Selector 2 returns ", sel2);
+
+        // To access lists all elements
+        let sel3 = document.querySelectorAll('#nav>li');
+        console.log("Selector 3 returns ", sel3);
+
+        // Changning 1 element
+        console.log(sel3[0].innerHTML);
+        sel3[0].innerHTML = "Inserted";
+        console.log(sel3[0].innerHTML);
+        console.log(sel3);
+    </script>
+</body>
+</html>

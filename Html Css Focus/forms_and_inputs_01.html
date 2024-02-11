@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Inputs</title>
+</head>
+<body>
+    <h1>This is HTML Form</h1><hr><br>
+    <!-- enctype = multipart/form-data is used usually bcz when files data is tooo large so we divide it in multiple parts to upload on forms -->
+    <form method="get" action="backend.php" enctype="multipart/form-data">
+
+        <!-- size is used for box length
+             and, maxlength is used for characters input size -->
+        <label for="name">Name</label>
+        <div>
+            <!-- autocomplete="on" is used for hint we get when we write any charatcer
+                like if we write a ----hint we get will be apple abraham etc -->
+            <input type="text" name="myName" id="name" placeholder="Enter name" required maxlength="30" size="25" autocomplete="on">
+        </div>
+
+        <br>
+        <label for="role">Role</label>
+        <div>
+            <input type="text" name="myRole" id = "role" placeholder="Enter role">
+        </div>
+
+        <br>
+        <div>
+            <label for="email">Email:</label>
+        
+            <input type="email" name="myEmail" id = "email" placeholder="Enter valid email adress" required>
+        </div>
+
+        <br>
+        <div>
+            <label for="password">Password:</label>
+
+            <input type="password" name="myPassword" id="password" placeholder="Enter password" required>
+        </div>
+
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+
+        <br>
+        <div>
+            Time:
+            <input type="time">
+        </div>
+
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus" placeholder="Enter Bonus">
+        </div>
+
+
+        <!-- If we want to increase number by even or odd criteria -->
+        <br>
+        <div>
+            <!-- By ODD -->
+            Enter Odd Number: <input type="number" value="1" step="2">
+        </div>
+
+        <br>
+        <div>
+            <label for="website">Website:</label>
+            <input type="url" name="myWebsite" id="website" placeholder="Enter website name" required>
+        </div>
+
+        <br>
+        <label for="eligible">Are you eligible?</label>
+        <div>
+            <input type="checkbox" checked name="Eligibility" id = "eligible">
+        </div>
+
+        <br>
+        <div>
+            Gender: Male <input type="radio" name = "myGender"> Female <input type="radio" name = "myGender"> Other <input type="radio" name = "myGender">
+        </div>
+
+        <br>
+        <div>
+            Write about Yourself:<br><textarea name="myText" cols="50" rows="10" placeholder="Enter Description"></textarea>
+        </div>
+
+        <br>
+        <div>
+            Car:<select name="car">
+                    <option value="swft">Swift</option>
+                    <option value="elantra" selected>Elantra</option>
+                </select>
+        </div>
+
+        <br>
+        <div>
+            Range:
+            <small><small>1000</small></small>
+            <input type="range" min="1000" max="5000">
+            <small><small>5000</small></small>
+        </div>
+
+        <br>
+        <div>
+            Colour:
+            <input type="color">
+        </div>
+
+        <!-- Hidden will be hided from user, It will be only seen to developer -->
+        <br>
+        <div>
+            Hidden:
+            <input type="hidden" value="Pakistan">
+        </div>
+
+        <!-- Single File Uploaded -->
+        <br>
+        <div>
+            Single File Uploaded:
+            <input type="file">
+        </div>
+
+        <!-- Multiple File Uploaded -->
+        <br>
+        <div>
+            Multiple File Uploaded:
+            <input type="file" multiple>
+        </div>
+
+        <br>
+        <div>
+            <input type="submit" name = "Submit Now">
+            <input type="reset" name = "Reset Now">
+        </div>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,16 @@
+div{
+    column-count: 3;
+
+    /* Method # 01 */
+    /* column-rule-style: solid;
+    column-rule-width: 2px;
+    column-rule-color: red; */
+
+    /* Shortcut method */
+    column-rule: 2px solid red;
+    column-width: 300px;
+}
+
+h1{
+    column-span: all;
+}
