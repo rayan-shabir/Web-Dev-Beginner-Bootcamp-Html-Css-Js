@@ -1,0 +1,15 @@
+@media screen{
+    p{
+        font-size: 30px;
+    }
+}
+
+@media print{
+    p{
+        font-size: 30px;
+        width: 300px;
+    }
+    img{
+        display: none;
+    }
+}

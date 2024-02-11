@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h1>Tables</h1><hr>
+
+    <h2><ins>Table # 01</ins></h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name </th>
+                <th> Employee id </th>
+                <th> Salary </th>
+            </tr>
+        </thead>
+        <body>
+            <tr>
+                <td>Rayan</td>
+                <td>535</td>
+                <td>3000,000</td>
+            </tr>
+
+            <tr>
+                <td>Ali</td>
+                <td>512</td>
+                <td>10,000</td>
+            </tr>
+
+            <tr>
+                <td>Ahmed</td>
+                <td>001</td>
+                <td>75282,00</td>
+            </tr>
+            
+        </body>
+    </table>
+
+
+    <h2><ins>Table # 02</ins></h2>
+    <table border="1">
+        <caption>Information</caption>
+        <thead style="color: red">
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+        </thead>
+        <tbody style="color:blue">
+            <tr>
+                <td>data 1</td>
+                <td>data 2</td>
+                <td>data 3</td>
+            </tr>
+
+            <tr>
+                <td>data 4</td>
+                <td>data 5</td>
+                <td>data 6</td>
+            </tr>
+
+            <tr>
+                <td>data 7</td>
+                <td>data 8</td>
+                <td>data 9</td>
+            </tr>
+        </tbody>
+        <tfoot style="color:blueviolet">
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2><ins>Table # 03</ins></h2>
+    <table border = "1">
+        <caption>Images + Link Table</caption>
+        <tr>
+            <th>row 1</th>
+            <td>
+                <img src="program.jpg" alt="error image loading" width="220", height="180">
+            </td>
+            <!-- colspan = 2 will join i.e combines two columns -->
+            <td colspan="2">
+                <a href="https://www.google.com" target="_blank" title="Google">Go to Google</a>
+            </td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">row 2</th>
+            <td>data 4</td>
+            <td>data 5</td>
+            <td>data 6</td>
+        </tr>
+
+        <tr>
+            <td>data 7</td>
+            <td>data 8</td>
+            <td>data 9</td>
+        </tr>
+    </table>
+</body>
+</html>

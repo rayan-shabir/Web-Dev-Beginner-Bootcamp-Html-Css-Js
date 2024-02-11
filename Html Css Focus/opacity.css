@@ -1,0 +1,24 @@
+#para1{
+    border: 2px solid red;
+    width: 400px;
+    height: 100px;
+    background-color: yellow;
+}
+
+#para2{
+    border: 2px solid green;
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+    margin-top: -50px;
+    opacity: 0.5;
+}
+
+img{
+    width: 300px;
+    height: 180px;
+}
+
+img:hover{
+    opacity: 0.5;
+}

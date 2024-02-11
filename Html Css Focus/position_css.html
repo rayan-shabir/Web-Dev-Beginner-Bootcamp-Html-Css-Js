@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position (static, absolute, relative, fixed, sticky)</title>
+
+    <style>
+        /* Css Position: static (default), absolute, relative, fixed, sticky */
+        .container{
+            border: 5px solid black;
+            background-color: orange;
+            height: 3000px;
+        }
+        .box{
+            display: inline-block;
+            border: 4px solid red;
+            width: 100px;
+            height: 100px;
+        }
+
+        #box3{
+            /* relative: Position the element relative to its normal position and will leave a gap at its normal position. But not leave its normal position space for anything else*/
+            /* position: relative;
+            left: 23px;
+            top: 20px; */
+
+            /* absolute: Position the element relative to its direct positioned parent's position. It will also leave its normal position space for any else element */
+            /* position: absolute;
+            top: 33px;
+            left: 45px; */
+
+            /* fixed: Position the element relative to the browser window */
+            position: fixed;
+            right: 14px;
+            bottom: 4px;
+            color: white;
+            background-color:  black;
+
+            /* sticky: It will mark the element to the position which we mention*/
+            /* position: sticky;
+            top: 3px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">Hi</div>
+        <div class="box" id="box2">Hello</div>
+        <div class="box" id="box3">Chat with us</div>
+        <div class="box" id="box4">Ok</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,37 @@
+/* 
+**Syntax of pseudo element**
+selector :: pseudoElement {
+
+}
+*/
+
+/* To colour first letter */
+p::first-letter{
+    font-size: 50px;
+    color: red;
+}
+
+/* To colour first line */
+p::first-line{
+    color:blue;
+}
+
+/* To add content through css 
+before any element*/
+h1::before{
+    content: url(program.jpg);
+}
+
+/* To add content through css 
+after any element*/
+h1::after{
+    content: " added after";
+}
+
+/* When element is selected we do something upon it
+By using universal selector*/
+
+::selection{
+    color: red;
+    background-color: yellow;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <h1>Video</h1>
+    <!-- If we don't want to give controls to the user and autoplay the video -->
+    <video height="400" width="500" controls autoplay>
+        <source src="video2.mp4" type="video2/mp4">
+        <!-- If multiple formats are avilable for same audio then we have to write all the formats -->
+        <source src="video2.ogg" type="video2/ogg">
+        Your browser does not support this video
+    </video>
+
+
+    <!-- Here control will be given to user -->
+    <video height="400" width="500" controls>
+        <source src="video.mp4" type="video/mp4">
+        <!-- If multiple formats are avilable for same audio then we have to write all the formats -->
+        <source src="video.ogg" type="video/ogg">
+        Your browser does not support this video
+    </video>
+</body>
+</html>

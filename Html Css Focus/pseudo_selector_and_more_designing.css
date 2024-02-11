@@ -1,0 +1,44 @@
+.container{
+    border: 2px solid red;
+    width: 600px;
+    background-color:blanchedalmond;
+    margin: auto;
+    padding: 23px 30px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    background-color: blanchedalmond;
+}
+
+/* If website is visited these properties will be enable */
+/* a:visited{
+    color: yellow;
+    background-color: black;
+} */
+
+/* These are active properties */
+a:active{
+    color: darkblue;
+}
+
+.btn{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: red;
+    padding: 6px;
+    border: none;
+    cursor:pointer;
+    border-radius: 6px;
+}
+
+.btn:hover{
+    color: blue;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}

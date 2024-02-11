@@ -1,0 +1,21 @@
+/* 
+Syntax for 3D Transforms
+transform: persepective(200px) rotate3d();
+perspective-origin: 50% 50%; 
+*/
+
+#cover{
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+    margin: 150px;
+}
+
+#content{
+    height: 150px;
+    width: 150px;
+    background-color: yellowgreen;
+    /* transform: perspective(300px) rotate3d(50, 0, 0, 20deg); */
+    /* transform: perspective(300px) rotate3d(0, 50, 0, 20deg); */
+    transform: perspective(300px) rotate3d(0, 0, 50, 20deg);
+}
